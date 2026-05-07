@@ -1,20 +1,39 @@
-body{
-    background-color: rgb(233, 179, 233);
+body {
+background-color: #0f172a;
+ /*cor de fundo azul*/
+font-family: Arial,sans-serif;
+ /*fonte do texto*/
+}
+
+h1{
+color: #00ffcc; /*cor do meu h1*/
+text-align: center;/*centralizando o meu titulo*/
+text-shadow: 0px 0px 10px #00ffcc; /*efeito neon*/
 
 }
 
-h1{ 
-
-  color:rgb(143, 103, 180);
-  text-align: center;
-  text-shadow: 0px 0px 10px rgb(172, 231, 203) ;
-
+p{ 
+color: #e2e8f0;/*cor do texto*/
+font-size: 16px; /*tamanho da fonte*/
+text-align: justify;
+width: 60%;/*largura do parágrafo*/
+margin: 20px auto;
 }
 
-p{
-  color: blue;
-  font-size: 20px;
-  text-align: justify;
-  width: 60%;
-
+img {
+    height: auto; /* Manter proporção da imagem*/
+    width: 35%; /*define largura*/ 
+    max-width: 400px; /*Limita tamanho máximo*/
+    display: block; /*permite centralização*/
+    margin: 20px auto; /*Centraliza a imagem*/
+    border-radius: 10px; /*Bordas arredondadas*/
 }
+
+
+
+
+
+
+
+
+
